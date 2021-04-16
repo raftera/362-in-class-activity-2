@@ -1,0 +1,16 @@
+num1 = input("Enter a number. This number will be the dividend. ")
+num1i = int(num1)
+num2 = input("Enter another number. ")
+num2i = int(num2)
+
+sum = str(num1i+num2i)
+diff = str(num1i-num2i)
+product = str(num1i*num2i)
+quotient = str(num1i/num2i)
+remainder = str(num1i%num2i)
+
+print("Sum: " + sum)
+print("Difference: " + diff)
+print("Product: " + product)
+print("Quotient: " + quotient)
+print("Remainder: " + remainder)
